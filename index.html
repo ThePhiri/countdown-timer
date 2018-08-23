@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Count down timer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/countdown.js"></script>
+</head>
+<body>
+  <div>
+      <h1>Count Down Timer</h1>
+     
+  </div>
+  <hr>
+   <div><h2 id="displayDay"></h2></div>
+    <div><h2 id="displayTime"></h2></div>
+   
+    <div>
+        <form action="">
+           
+            <label for="">Year<input type="text" id="year" required></label>
+            <label for="">Month<input type="text" id="month" min="1" max="12" required></label>
+            <label for="">Day<input type="text" id="day" min="1" max="31" required></label>
+            <input type="button" onclick ="formValidation()" value="submit">
+        </form>
+        <p id="error"></p>
+    </div>
+</body>
+</html>
